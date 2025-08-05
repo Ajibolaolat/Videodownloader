@@ -2,6 +2,7 @@ from flask import Flask, render_template, request
 import yt_dlp
 import os
 from pathlib import Path
+from random import choice
 
 app = Flask(__name__)
 
